@@ -18,10 +18,15 @@ import {
   export function useApolloGraphClient() {
     const cache = new InMemoryCache();
     const httpLink = new HttpLink({
-      uri:
+    //   uri:
+    //     Platform.OS === 'ios'
+    //       ? Config.GRAPH_API_URL
+    //       : Config.GRAPH_ANDROID_API_URL,
+    uri:
         Platform.OS === 'ios'
-          ? Config.GRAPH_API_URL
-          : Config.GRAPH_ANDROID_API_URL,
+          ?  'localhost:4000/graphql'
+          : 'localhost:4000/graphql',
+
     });
   
     const _storeData = async (authorization, bearer) => {
