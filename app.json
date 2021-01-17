@@ -1,0 +1,12 @@
+{
+  "name": "passwordMngr",
+  "displayName": "passwordMngr",
+  "expo": {
+    "name": "passwordMngr",
+    "slug": "passwordMngr",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
