@@ -6,7 +6,7 @@ import Rate, {AndroidMarket} from 'react-native-rate';
 import {ThemeContext} from '../theme-context';
 import {removeStoreValue} from '../utils/storage';
 import {Context} from '../utils/globalStore';
-import {ADD_ACCOUNTS_LOCAL_MUTATION} from '../graphql/account';
+import {ADD_ACCOUNTS_LOCAL_MUTATION} from '../graphQL/account';
 import style from '../styles/style';
 import Logger from '../utils/logger';
 

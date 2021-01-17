@@ -10,7 +10,7 @@ import {KeyboardAwareScrollView} from 'react-native-keyboard-aware-scroll-view';
 import {
   ADD_ACCOUNTS_LOCAL_MUTATION,
   GET_ACCOUNTS_LOCAL_QUERY,
-} from '../graphql/account';
+} from '../graphQL/account';
 import {Context} from '../utils/globalStore';
 import {setStoreValue} from '../utils/storage';
 import style from '../styles/style';

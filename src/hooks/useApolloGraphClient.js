@@ -9,8 +9,8 @@ import {
   import Config from 'react-native-config';
   import {setContext} from 'apollo-link-context';
   import AsyncStorage from '@react-native-community/async-storage';
-  import typeDefs from '../graphql/local';
-  import resolvers from '../resolvers/resolver';
+  import typeDefs from '../graphQL/local';
+  import resolvers from '../resolvers/index';
   import {Platform} from 'react-native';
   import {removeStoreValue, getStoreValue} from '../utils/storage';
   import Logger from '../utils/logger';

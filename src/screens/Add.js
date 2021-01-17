@@ -11,7 +11,7 @@ import style from '../styles/style';
 import {
   ADD_ACCOUNTS_LOCAL_MUTATION,
   GET_ACCOUNTS_LOCAL_QUERY,
-} from '../graphql/account';
+} from '../graphQL/account';
 import {Context} from '../utils/globalStore';
 import {setStoreValue} from '../utils/storage';
 import {convertDate} from '../utils';

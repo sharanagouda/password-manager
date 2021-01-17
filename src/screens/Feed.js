@@ -7,7 +7,7 @@ import RenderRightCloseIcon from '../components/icons/RenderRightCloseIcon';
 import {
   ADD_ACCOUNTS_LOCAL_MUTATION,
   GET_ACCOUNTS_LOCAL_QUERY,
-} from '../graphql/account';
+} from '../graphQL/account';
 import style from '../styles/style';
 import {ThemeContext} from '../theme-context';
 import {getStoreValue} from '../utils/storage';

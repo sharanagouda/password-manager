@@ -1,5 +1,5 @@
 import CryptoJS from 'react-native-crypto-js';
-import Logger from './Logger';
+import Logger from './logger';
 
 export const utf8 = CryptoJS.enc.Utf8;
 

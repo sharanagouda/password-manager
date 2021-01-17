@@ -6,7 +6,7 @@ import {KeyboardAwareScrollView} from 'react-native-keyboard-aware-scroll-view';
 import Toast from 'react-native-simple-toast';
 import {Context} from '../utils/globalStore';
 import {useMutation} from '@apollo/react-hooks';
-import {ADD_ACCOUNTS_LOCAL_MUTATION} from '../graphql';
+import {ADD_ACCOUNTS_LOCAL_MUTATION} from '../graphQL';
 import {getStoreValue} from '../utils/storage';
 import {decrypt} from '../utils/crypto';
 import ComponentInput from '../components/ComponentInput';

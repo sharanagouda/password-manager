@@ -9,7 +9,7 @@ import {useMutation, useQuery} from '@apollo/react-hooks';
 import {
   ADD_ACCOUNTS_LOCAL_MUTATION,
   GET_ACCOUNTS_LOCAL_QUERY,
-} from '../graphql/account';
+} from '../graphQL/account';
 import {setStoreValue} from '../utils/storage';
 import {Context} from '../utils/globalStore';
 import style from '../styles/style';
