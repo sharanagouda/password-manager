@@ -1,4 +1,4 @@
-import { GET_ACCOUNTS_LOCAL_QUERY } from '../graphql/account';
+import { GET_ACCOUNTS_LOCAL_QUERY } from '../graphQL/account';
 
 module.exports = {
   //addProductToCart: (_, { chefId, id, productId, price, name, image, quantity }, { cache }) => {

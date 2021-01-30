@@ -1,4 +1,4 @@
-import * as SigninResolver from './signinResolver';
+import * as SigninResolver from './signInResolver';
 import * as AccountResolver from './accountResolver';
 
 const resolvers = {

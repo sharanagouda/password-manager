@@ -1,4 +1,4 @@
-import {GET_CART_ITEMS_QUERY, GET_SIGNIN_USER_QUERY} from '../graphql';
+import {GET_CART_ITEMS_QUERY, GET_SIGNIN_USER_QUERY} from '../graphQL';
 import {setStoreData} from '../utils/storage';
 
 module.exports = {
